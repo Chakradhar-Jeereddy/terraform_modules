@@ -1,0 +1,17 @@
+# Terraform generated files and directories
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*backup
+*.tfplan
+.tfvars
+.tfvars.json
+crash.log
+
+# Local overrides
+override.tf
+override.tf.json
+
+# Provider specific files (if any)
+# For example, if you're using AWS, you might have:
+# .aws/credentials
